@@ -96,7 +96,7 @@ async function main() {
   <body>
   <h1>placeholders</h1>
   ${filenames.map(f => {
-    const href = `https://greggman.github.io/placeholder-generator/${f}`;
+    const href = `https://greggman.github.io/placeholders/${f}`;
     return `<li><a href="${f}">${href}</a>`;
   }).join('\n')}
   </body>
